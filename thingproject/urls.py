@@ -19,6 +19,6 @@ from things import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.things_form, name='home'),
+    path('', views.home, name='home'),
     path('things_form/', views.things_form, name='things')
 ]
